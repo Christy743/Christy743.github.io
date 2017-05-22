@@ -1,0 +1,21 @@
+# Site settings
+title: Why did I decide on learning web development?
+header-img: img/home-bg.png
+email: cchronister743@gmail.com
+copyright_name: Christy743
+description: > # this means to ignore newlines until "baseurl:"
+  How did I end up with enrolling at Flatiron School?
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: CMChronister73
+github_username:  Christy743
+learn_profile: Christy743
+email_username: cchronister743@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
