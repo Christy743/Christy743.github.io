@@ -31,7 +31,7 @@ These are the things I've learned through this journey:
 3. Research, research and more research.
 4. Don't compare yourself with others. 
 5. Don't listen to the naysayers.
-6.Enjoy life!
+6. Enjoy life!
 
 
 
