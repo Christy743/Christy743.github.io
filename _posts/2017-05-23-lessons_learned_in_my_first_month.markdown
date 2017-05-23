@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  Lessons learned in my first month
-date:   2017-05-23 18:22:13 +0000
+date:   2017-05-23 14:22:14 -0400
 ---
 
 
-I'm not going to say that learning the programming language of [Ruby](http://https://en.wikipedia.org/wiki/Ruby_(programming_language)) was easy.  I have learned different programming languages from the past in high school such as [FORTRAN](https://groups.engin.umd.umich.edu/CIS/course.des/cis400/fortran/fortran.html) and in college I completed statistics courses with [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language) and [Pascal](http://https://en.wikipedia.org/wiki/Pascal_(programming_language). All those programming languages take time to learn and to understand the concepts.  I forgot over the years that with any programming language syntax is very important.  Also to be patient with myself and walk away from the computer when needed.  Not that I would hit my computer or get so frustrated that I would yell at the screen.  I am a person that does not like to give up and I take not just hours but even a couple of days to figure out an answer to why my program is not working.  Maybe I need to learn to reach out a little more quicker?
+I'm not going to say that learning the programming language of [Ruby](http://https://en.wikipedia.org/wiki/Ruby_(programming_language)) was easy.  I have learned different programming languages from the past in high school such as [FORTRAN](https://groups.engin.umd.umich.edu/CIS/course.des/cis400/fortran/fortran.html) and in college I completed statistics courses with [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language)) and [Pascal](http://https://en.wikipedia.org/wiki/Pascal_(programming_language)). All those programming languages take time to learn and to understand the concepts.  I forgot over the years that with any programming language syntax is very important.  Also to be patient with myself and walk away from the computer when needed.  Not that I would hit my computer or get so frustrated that I would yell at the screen.  I am a person that does not like to give up and I take not just hours but even a couple of days to figure out an answer to why my program is not working.  Maybe I need to learn to reach out a little more quicker?
 
 ![PopKey](https://m.popkey.co/3d9d6b/K6o6m.gif)
 
