@@ -22,3 +22,5 @@ gems: [jekyll-paginate, jekyll-feed]
 
 
 theme: jekyll-theme-cayman
+
+permalink: /blog/:year/:month/:day/:title
