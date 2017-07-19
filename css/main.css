@@ -23,6 +23,9 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h1 {
+    background-image: url("https://github.com/Christy743/Christy743.github.io/blob/master/images/1500x500");
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
