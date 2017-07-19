@@ -12,11 +12,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-.image p{
-    font-size: 15px;
-    font-color: #708090;
-    text-align: right;
-}
 a {
     text-decoration: none;
     color: #999;
