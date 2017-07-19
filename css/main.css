@@ -12,6 +12,10 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav {
+    background-image: url("https://github.com/Christy743/Christy743.github.io/blob/master/images/1500x500");
+    background-repeat: no-repeat;
+}
 a {
     text-decoration: none;
     color: #999;
