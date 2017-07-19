@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scraping the Web in Ruby"
-date:   2017-07-19 22:12:38 +0000
+date:   2017-07-19 18:12:38 -0400
 ---
 
 
@@ -29,11 +29,11 @@ Successfully installed open-uri-s3-1.6.0
 
 I also looked up other resources to help me with my labs:
 
-https://www.distilled.net/resources/web-scraping-with-ruby-and-nokogiri-for-beginners/
+[distilled.net](https://www.distilled.net/resources/web-scraping-with-ruby-and-nokogiri-for-beginners)
 
 and
 
-https://medium.com/@LindaHaviv/the-beginner-s-guide-scraping-in-ruby-cheat-sheet-c4f9c26d1b8c 
+[medium.com](https://medium.com/@LindaHaviv/the-beginner-s-guide-scraping-in-ruby-cheat-sheet-c4f9c26d1b8c )
 
 I also have learned that I had to watch carefully when I went to the 'Developer Tools' to see the HTML and CSS code on the webpage I wanted to scrape.  Fortunately I have had a lot of training in HTML and CSS to understand classes and id's.  When I was searching what to parse in my code in Ruby, I had to make sure that I typed in the exact spelling as on the HTML page because running my code would not generate anything in my array of data.  I look at it as peeling back all the layers to find the right information to write in the code and thus get the list of shoes or dogs or cats.  The possibilities are endless!
 
