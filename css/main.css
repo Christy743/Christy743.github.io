@@ -12,9 +12,10 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-body {
-    background-image: url("Christy743.github.io/images/clouds.jpg");
-    background-repeat: no-repeat;
+.image p{
+    font-size: 15px;
+    font-color: #708090;
+    text-align: right;
 }
 a {
     text-decoration: none;
