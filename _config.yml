@@ -5,7 +5,7 @@ email: cchronister743@gmail.com
 copyright_name: Christy743
 description: > # this means to ignore newlines until "baseurl:"
   I enjoy learning to code!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. # /blog
 twitter_username: CMChronister73
 github_username:  Christy743
 learn_profile: Christy743
