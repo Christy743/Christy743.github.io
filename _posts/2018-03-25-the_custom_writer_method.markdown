@@ -11,7 +11,7 @@ I was a little confused. Well, maybe a lot confused on the requirement in the Ra
 In the code below, the first method is to return @dog and the second method is to set @dog to an argument:
 
 ```
-	def dog 
+		def dog 
 		    @dog  	# return @dog
 		end 
 
@@ -27,12 +27,12 @@ In my Rails Portfolio Project of ["Knitting Patterns"](https://github.com/Christ
 
 ```
 	def  favorite_patterns_attributes=(favorite_pattern_attributes)
-       favorite_pattern_attributes.values.each do |favorite_pattern_attribute|
-     	      if favorite_pattern_attributes[:my_favorite].present?
-                 favorite_pattern = FavoritePattern.find_or_create_by(my_favorite: favorite_pattern_attributes[:my_favorite])		 		               self.favorite_patterns.build(my_favorite: my_favorite)
-           end
-       end
-end
+       	  favorite_pattern_attributes.values.each do |favorite_pattern_attribute|
+     	     if favorite_pattern_attributes[:my_favorite].present?
+                  favorite_pattern = FavoritePattern.find_or_create_by(my_favorite: favorite_pattern_attributes[:my_favorite])		 	  self.favorite_patterns.build(my_favorite: my_favorite)
+             end
+          end
+        end
 ```
 
 And my view form for making a new pattern:
@@ -40,23 +40,23 @@ And my view form for making a new pattern:
 ```
 <%= form_for @pattern do |f| %>
      <%= f.label :name, "Type in Your Pattern Name" %><br />
-         <%= f.text_field :name, class: "form-control" %>
-         <br />
-         <%= f.label :needles, "Knitting Needles:" %><br />
-         <%= f.text_field :needles, class: "form-control" %>
-        <br />
-        <%= f.label :yarn %><br />
-        <%= f.text_field :yarn, class: "form-control" %>
-        <br />
-        <%= f.label :weight, "Yarn Weight; for example; sport, fingering, lace:" %><br />
-        <%= f.text_field :weight, class: "form-control" %>
-        <br />
-        <%= f.label :quantity, "Yarn quantity:" %><br />
-        <%= f.number_field :quantity, class: "form-control"%>
-        <br />
-        <%= f.label :materials, "Any other materials to complete the project:" %><br></br>
-        <%= f.text_area :materials, class: "form-control" %><br />
-        <br />
+       <%= f.text_field :name, class: "form-control" %>
+       <br />
+       <%= f.label :needles, "Knitting Needles:" %><br />
+       <%= f.text_field :needles, class: "form-control" %>
+       <br />
+       <%= f.label :yarn %><br />
+       <%= f.text_field :yarn, class: "form-control" %>
+       <br />
+       <%= f.label :weight, "Yarn Weight; for example; sport, fingering, lace:" %><br />
+       <%= f.text_field :weight, class: "form-control" %>
+       <br />
+       <%= f.label :quantity, "Yarn quantity:" %><br />
+       <%= f.number_field :quantity, class: "form-control"%>
+       <br />
+       <%= f.label :materials, "Any other materials to complete the project:" %><br></br>
+       <%= f.text_area :materials, class: "form-control" %><br />
+       <br />
        <%= f.label :content, "Pattern Directions" %><br />
        <%= f.text_area :content, class: "form-control" %>
        <br />
